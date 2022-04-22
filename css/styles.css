@@ -123,6 +123,8 @@ color: #757575;
 
 /* ============= /HERO ============= */
 
+/* ============= BENEFITS ============= */
+
 .suptitle {
 font-family: var(--primary-font-family);
 font-weight: 700;
@@ -132,3 +134,78 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--primary-color);
 }
+
+.benefits-description {
+    font-family: var(--primary-font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+/* ============= /BENEFITS ============= */
+
+/* ============= TEAM ============= */
+
+.team-title {
+    font-family: var(--primary-font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+     color: var(--primary-color);
+}
+
+.team-description {
+    font-family: var(--primary-font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+/* ============= /TEAM ============= */
+
+/* ============= FOOTER ============= */
+
+/*.logo-white {
+    color: var(--secondary-color);
+}*/
+
+.address-link {
+    font-family: var(--primary-font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    /*color: var(--secondary-color);*/
+    text-decoration: none;
+}
+
+.mail-link {
+    font-family: var(--primary-font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    /*color: rgba(255, 255, 255, 0.6);*/
+}
+
+.phone-link {
+    font-family: var(--primary-font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    /*color: rgba(255, 255, 255, 0.6);*/
+}
+/* ============= /FOOTER ============= */
