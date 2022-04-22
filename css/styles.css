@@ -209,3 +209,54 @@ color: var(--primary-color);
     /*color: rgba(255, 255, 255, 0.6);*/
 }
 /* ============= /FOOTER ============= */
+
+/* ============= TABS ============= */
+
+.tabs-btn {
+    font-family: var(--primary-font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    color: var(--primary-color);
+    background: #F5F4FA;
+    border-radius: 4px;
+}
+
+.tabs-btn:hover,
+.tabs-btn:focus {
+    background-color: var(--accent-color);
+    color: var(--secondary-color);
+}
+
+/* ============= /TABS ============= */
+
+/* ============= PORTFOLIO ============= */
+
+.portfolio-card {
+    cursor: pointer;
+}
+
+.portfolio-title {
+    font-family: var(--primary-font-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--primary-color);
+}
+
+.portfolio-description {
+    font-family: var(--primary-font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+/* ============= /PORTFOLIO ============= */
