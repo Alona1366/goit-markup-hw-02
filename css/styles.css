@@ -41,11 +41,12 @@ body {
 }
 
 .title {
-    font-family: var(--secondary-font-family);
+    font-family: var(--primary-font-family);
     font-weight: 700;
     font-size: 42px;
     line-height: 1.67;
     letter-spacing: 0.05em;
+    text-align: center;
     color: var(--primary-color);
 }
 
@@ -112,18 +113,29 @@ color: #757575;
 
 /* ============= HERO ============= */
 
+.hero {
+    background: #2F303A;
+}
+
 .hero-title {
     font-family: var(--primary-font-family);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     letter-spacing: 0.05em;
-    /*color: var(--secondary-color)*/
+    text-transform: uppercase;
+    color: var(--secondary-color)
 }
 
 /* ============= /HERO ============= */
 
 /* ============= BENEFITS ============= */
+
+.title-hidden {
+    visibility: hidden;
+    pointer-events: none;
+    position: absolute;
+}
 
 .suptitle {
 font-family: var(--primary-font-family);
@@ -172,9 +184,13 @@ color: var(--primary-color);
 
 /* ============= FOOTER ============= */
 
-/*.logo-white {
+.footer {
+    background: #2F303A;
+}
+
+.logo-white {
     color: var(--secondary-color);
-}*/
+}
 
 .address-link {
     font-family: var(--primary-font-family);
@@ -183,7 +199,7 @@ color: var(--primary-color);
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    /*color: var(--secondary-color);*/
+    color: var(--secondary-color);
     text-decoration: none;
 }
 
@@ -195,7 +211,7 @@ color: var(--primary-color);
     line-height: 1.71;
     letter-spacing: 0.03em;
     text-decoration: none;
-    /*color: rgba(255, 255, 255, 0.6);*/
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .phone-link {
@@ -206,11 +222,26 @@ color: var(--primary-color);
     line-height: 1.71;
     letter-spacing: 0.03em;
     text-decoration: none;
-    /*color: rgba(255, 255, 255, 0.6);*/
+    color: rgba(255, 255, 255, 0.6);
 }
 /* ============= /FOOTER ============= */
 
 /* ============= TABS ============= */
+
+.tabs-btn-selected {
+font-family: var(--primary-font-family);
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+cursor: pointer;
+color: var(--secondary-color);
+background: var(--accent-color);
+border-radius: 4px;
+}
 
 .tabs-btn {
     font-family: var(--primary-font-family);
